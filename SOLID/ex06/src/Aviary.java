@@ -1,3 +1,3 @@
-class Aviary {public 
-    void release(Bird b){ b.fly(); System.out.println("Released"); }
+class Aviary {
+    void release(Flying f){ f.fly(); System.out.println("Released"); }
 }
